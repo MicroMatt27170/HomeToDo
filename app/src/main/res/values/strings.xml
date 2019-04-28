@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Home 2Do</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="dias">
+        <item name="none">(Seleccione los días)</item>
+        <item name="lun">Lunes / Miércoles</item>
+        <item name="mar">Martes / Jueves</item>
+        <item name="vie">Viernes</item>
+    </string-array>
+
+    <string-array name="materias">
+        <item name="none">(Seleccione la materia)</item>
+        <item name="lun">Arquitectura de software</item>
+        <item name="mar">Seguridad de la información</item>
+        <item name="vie">Procesos de desarrollo de software</item>
+        <item name="vie">Contabilidad</item>
+        <item name="vie">Matemáticas financieras</item>
+
+    </string-array>
+</resources>

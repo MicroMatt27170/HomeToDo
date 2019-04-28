@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hometodo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_azul_sinletrasl"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_azul_sinletrasl"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Activities.Registro"
+            android:label="Registro"
+            android:parentActivityName=".Activities.SplashScreen"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hometodo.Activities.SplashScreen" />
+        </activity>
+        <activity
+            android:name=".Activities.Perfil"
+            android:label="Editar Perfil"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hometodo.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activities.AgregarMateria"
+            android:label="Agregar Materia"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hometodo.Activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Activities.AgregarExamen"
+            android:label="Agregar Examen"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Activities.AgregarTarea"
+            android:label="Agregar Tarea"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

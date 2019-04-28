@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <!--Sección de foto-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin">
+
+                <ImageView
+                    android:id="@+id/perfil_img"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/menu_img_usuario" />
+
+                <Button
+                    android:id="@+id/perfil_btnCargar"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/btn_perfil_selector"
+                    android:drawableLeft="@drawable/perfil_img_subirfoto"
+                    android:fontFamily="@font/metropolis_light"
+                    android:text="SUBIR FOTO"
+                    android:textColor="@drawable/textview_inicio_color"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/perfil_btnHacer"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/perfil_btnCargar"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/btn_perfil_selector_hacerfoto"
+                    android:drawableLeft="@drawable/perfil_img_hacerfoto"
+                    android:fontFamily="@font/metropolis_light"
+                    android:text="HACER FOTO"
+                    android:textColor="@drawable/textview_inicio_color"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@drawable/edittext_color"
+                android:fontFamily="@font/metropolis_light"
+                android:hint="Nombre (s)"
+                app:hintTextAppearance="@style/hintStyle"
+                app:errorTextAppearance="@color/login_gray"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_selector"
+                    android:inputType="text"
+                    android:textColor="@drawable/edittext_color"
+                    android:fontFamily="@font/metropolis_light"
+                    android:textCursorDrawable="@drawable/edittextcursor"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@drawable/edittext_color"
+                android:fontFamily="@font/metropolis_light"
+                android:hint="Apellidos"
+                app:hintTextAppearance="@style/hintStyle"
+                app:errorTextAppearance="@color/login_gray"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_selector"
+                    android:inputType="text"
+                    android:textColor="@drawable/edittext_color"
+                    android:fontFamily="@font/metropolis_light"
+                    android:textCursorDrawable="@drawable/edittextcursor"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtAlias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@drawable/edittext_color"
+                android:fontFamily="@font/metropolis_light"
+                android:hint="Alias"
+                app:hintTextAppearance="@style/hintStyle"
+                app:errorTextAppearance="@color/login_gray"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_selector"
+                    android:inputType="text"
+                    android:textColor="@drawable/edittext_color"
+                    android:fontFamily="@font/metropolis_light"
+                    android:textCursorDrawable="@drawable/edittextcursor"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtCarrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@drawable/edittext_color"
+                android:fontFamily="@font/metropolis_light"
+                android:hint="Carrera"
+                app:hintTextAppearance="@style/hintStyle"
+                app:errorTextAppearance="@color/login_gray"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_selector"
+                    android:inputType="text"
+                    android:textColor="@drawable/edittext_color"
+                    android:fontFamily="@font/metropolis_light"
+                    android:textCursorDrawable="@drawable/edittextcursor"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtSemestre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@drawable/edittext_color"
+                android:fontFamily="@font/metropolis_light"
+                android:hint="Semestre"
+                app:hintTextAppearance="@style/hintStyle"
+                app:errorTextAppearance="@color/login_gray"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_selector"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textColor="@drawable/edittext_color"
+                    android:fontFamily="@font/metropolis_light"
+                    android:textCursorDrawable="@drawable/edittextcursor"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GUARDAR"
+                android:padding="10dp"
+                android:onClick="registrarUsuario"
+                tools:ignore="OnClick"
+                android:layout_gravity="center"
+                android:fontFamily="@font/metropolis_bold"
+                android:background="@drawable/itembtn"
+                android:textColor="@color/blanco"
+                android:textSize="14sp"/>
+
+        </LinearLayout>

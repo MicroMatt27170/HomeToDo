@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/img_perfil"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="4dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/txt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:textSize="14dp"
+        android:fontFamily="@font/metropolis_bold"
+        android:text="@string/nav_header_title" />
+
+    <TextView
+        android:id="@+id/txt_carrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/metropolis_medium"
+        android:text="@string/nav_header_subtitle" />
+
+    <ImageButton
+        android:id="@+id/img_editar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/btn_perfil_selector"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/editar_img" />
+
+</LinearLayout>
