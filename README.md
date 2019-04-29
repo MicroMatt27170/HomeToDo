@@ -5,25 +5,25 @@ Homework 2do es una aplicación que facilita el hecho de ser estudiante, ¿Pero 
 Interfaces e imagnes del flujo de la experiencia de usuario al navegar en nuestra aplicación
 
 ### Pantalla Inicial
-![Inicio](https://github.com/AllieMichell/Homework2do/blob/master/Images/Inicio.png)
+![Inicio](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/inicio.png)
 
 ### Menú
-![Menu](https://github.com/AllieMichell/Homework2do/blob/master/Images/Menu.png)
+![Menu](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Menu.png)
 
 ### Agregar Usuario
-![Crear Cuenta](https://github.com/AllieMichell/Homework2do/blob/master/Images/Crear_cuenta.png)    ![Agregar Usuario](https://github.com/AllieMichell/Homework2do/blob/master/Images/Usuario_agregado.png)
+![Crear Cuenta](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Crear_cuenta.png)![Agregar Usuario](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Usuario_agregado.png)
 
 ### Agregar Materia
-![Agregar Examen](https://github.com/AllieMichell/Homework2do/blob/master/Images/Agregar_tarea.jpg)    ![Agregar Tarea Datos](https://github.com/AllieMichell/Homework2do/blob/master/Images/Agregar_tarea_form.png)
+![Agregar Examen](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_tarea.jpg)![Agregar Tarea Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_tarea_form.png)
 
 ### Materias Agregadas
-![Materia Agregada](https://github.com/AllieMichell/Homework2do/blob/master/Images/Matria_agregada.png)
+![Materia Agregada](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Matria_agregada.png)
 
 ### Agregar Examen
-![Agregar Examen](https://github.com/AllieMichell/Homework2do/blob/master/Images/Agregar_examen.png)    ![Agregar Examen Datos](https://github.com/AllieMichell/Homework2do/blob/master/Images/Agregar_examen_form.png)
+![Agregar Examen](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_examen.png)![Agregar Examen Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_examen_form.png)
 
 ### Exámenes Agregados
-![Examen Agregado](https://github.com/AllieMichell/Homework2do/blob/master/Images/Examen_agregado.png)
+![Examen Agregado](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Examen_agregado.png)
 
 ### Inicio
-![Inicio](https://github.com/AllieMichell/Homework2do/blob/master/Images/Inicio_data.png)    ![Inicio Datos](https://github.com/AllieMichell/Homework2do/blob/master/Images/Menu_tareas.png)
+![Inicio](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Inicio_data.png)![Inicio Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Menu_tareas.png)
