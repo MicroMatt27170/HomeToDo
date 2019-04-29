@@ -11,19 +11,19 @@ Interfaces e imagnes del flujo de la experiencia de usuario al navegar en nuestr
 ![Menu](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Menu.png)
 
 ### Agregar Usuario
-![Crear Cuenta](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Crear_cuenta.png)![Agregar Usuario](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Usuario_agregado.png)
+![Crear Cuenta](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Crear_cuenta.png) ![Agregar Usuario](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Usuario_agregado.png)
 
 ### Agregar Materia
-![Agregar Examen](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_tarea.jpg)![Agregar Tarea Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_tarea_form.png)
+![Agregar Examen](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_tarea.jpg) ![Agregar Tarea Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_tarea_form.png)
 
 ### Materias Agregadas
 ![Materia Agregada](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Matria_agregada.png)
 
 ### Agregar Examen
-![Agregar Examen](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_examen.png)![Agregar Examen Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_examen_form.png)
+![Agregar Examen](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_examen.png) ![Agregar Examen Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Agregar_examen_form.png)
 
 ### Exámenes Agregados
 ![Examen Agregado](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Examen_agregado.png)
 
 ### Inicio
-![Inicio](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Inicio_data.png)![Inicio Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Menu_tareas.png)
+![Inicio](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Inicio_data.png) ![Inicio Datos](https://github.com/MicroMatt27170/HomeToDo/blob/master/images/Menu_tareas.png)
