@@ -15,6 +15,7 @@ import android.view.WindowManager;
 import com.hometodo.Adapters.InicioAdapter;
 import com.hometodo.Adapters.TareasAdapter;
 import com.hometodo.Models.Course;
+import com.hometodo.Models.Exam;
 import com.hometodo.Models.Homework;
 import com.hometodo.Models.InicioModel;
 import com.hometodo.Models.TareaModel;
@@ -61,20 +62,21 @@ public class Inicio extends Fragment {
 
 
         try {
-            List <Homework>myList = new Homework.QueryBuilder(getActivity()).all();
+            List <Homework> homeworks = new Homework.QueryBuilder(getActivity()).all();
+            List <Exam> exams = new Exam.QueryBuilder(getContext()).all();
             List <Course> materias=new Course.QueryBuilder(getActivity()).all();
 
             //fill the recycleview with info, going through the object model
             int index=0;
             //fill the recycleview with info, going through the object model
-            for(int i=0; i<myList.size(); i++){
+            for(int i=0; i<homeworks.size(); i++){
                 InicioModel lists=new InicioModel();
-                lists.setNombre(myList.get(i).getTitle());
-                lists.setDescripcion(myList.get(i).getDescription());//
-                lists.setFecha(myList.get(i).getDeliveryDate());
+                lists.setNombre(homeworks.get(i).getTitle());
+                lists.setDescripcion(homeworks.get(i).getDescription());//
+                lists.setFecha(homeworks.get(i).getDeliveryDate());
 
                 for (int j=0; j<materias.size();j++){
-                    if(materias.get(j).getId()==myList.get(i).getCourseId()){
+                    if(materias.get(j).getId()==homeworks.get(i).getCourseId()){
                         lists.setMateria(materias.get(j).getCourseName());
                         index=j;
                     }
@@ -82,6 +84,24 @@ public class Inicio extends Fragment {
                 lists.setColor(materias.get(index).getColor());
                 inicioList.add(lists);
             }
+
+            for(int i=0; i<exams.size(); i++){
+                InicioModel lists=new InicioModel();
+                lists.setNombre(exams.get(i).getTitle());
+                lists.setDescripcion(exams.get(i).getDescription());//
+                lists.setFecha(exams.get(i).getDateDelivery());
+
+                for (int j=0; j<materias.size();j++){
+                    if(materias.get(j).getId()==exams.get(i).getCourseId()){
+                        lists.setMateria(materias.get(j).getCourseName());
+                        index=j;
+                    }
+                }
+                lists.setColor(materias.get(index).getColor());
+                inicioList.add(lists);
+            }
+
+
         }catch (Exception e){
 
         }
